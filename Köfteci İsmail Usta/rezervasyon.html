@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Baharatların Kralı </title>
+
+    <!-- harici css -->
+    <link rel="stylesheet" href="./resim/css/style.css">
+    <link rel="stylesheet" href="./resim/css/reservation.css">
+	<link rel="shortcut icon" href="resim/images/cta-banner.png" type="image/x-icon">
+
+   <!-- javascript kodu -->
+    <script src="resim/js/script.js" defer></script>
+    <script src="resim/js/reservation.js" defer></script>
+</head>
+
+<body>
+    <!-- Başlık Bölümü -->
+    <section class="header-img">
+        <header class="header-main">
+            <nav class="nav-main">
+                <h1 class="main-title"><a href="#">Baharatların Kralı</a></h1>
+                <div class="openMenu"><i class="fa-solid fa-bars" style="color: #ff9d2e;"></i></div>
+                <ul class="nav-ul">
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="index.html#menu">Menü</a></li>
+                    <li><a href="hakkımızda.html">Hakkımızda</a></li>
+                    <li><a href="#">Rezervasyon</a></li>
+                    <div class="closeMenu"><i class="fa-solid fa-xmark"></i></div>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <h2>Rezervasyon <span>Yap!</span></h2>
+            <div class="reservation-details">
+                <p>Restoranımıza hoş geldiniz! En iyi yemek deneyimini yaşamanızı sağlamak için şiddetle tavsiye ediyoruz
+                    yapımı
+                    A
+                    rezervasyon. Rezervasyon sistemimiz hızlı ve kolaydır; aşağıdaki formu doldurmanız yeterlidir.
+                    tercihli
+                    tarih ve saat. Rezervasyonunuzu e-posta veya telefon aracılığıyla onaylayacağız.</p>
+                <h2>Özel İstekler</h2>
+                <p>Özel istekleriniz varsa lütfen bize önceden bildirin. Ekibimiz elinden geleni yapacaktır
+                    İhtiyaçlarınızı karşılayın ve rahat ve keyifli bir yemek deneyimi yaşamanızı sağlayın.</p>
+            </div>
+            <div class="table-container">
+                <form name="reservation-form">
+                    <h2>Kayıt</h2>
+                    <div class="content">
+                        <div class="input-box">
+                            <label for="name">Ad Soyad</label>
+                            <input type="text" placeholder="Tam adı girin" name="ad" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-posta</label>
+                            <input type="email" placeholder="E-postanızı giriniz" name="e-posta" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="phone">Telefon numarası</label>
+                            <input type="tel" placeholder="Telefon numarasını girin" name="telefon" pattern="[0-9]{10}" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="date">Tarih</label>
+                            <input type="Tarih" placeholder="Tarih Girin" name="Tarih" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="no-of-persons">Kişi Numarası</label>
+                            <input type="number" placeholder="Kişi Numarası" min="1" max="10" name=""
+                                required>
+                        </div>
+                        <div class="input-box">
+                            <label for="time">Saat</label>
+                            <input type="saat" placeholder="Telefon numarasını girin" name="saat" required>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" value="Koltuk Rezervi" name="Koltuk Rezervi">Koltuk Rezervi</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
